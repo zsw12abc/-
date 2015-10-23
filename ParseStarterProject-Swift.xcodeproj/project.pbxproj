@@ -17,7 +17,10 @@
 		81BA81791A49E0DB00E65899 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA81781A49E0DB00E65899 /* AudioToolbox.framework */; };
 		81BA817B1A49E0E500E65899 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA817A1A49E0E500E65899 /* SystemConfiguration.framework */; };
 		81BA817F1A49E0F000E65899 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA817E1A49E0F000E65899 /* libstdc++.6.dylib */; };
-		9E0080FC1BD87A96004D1B31 /* Lecturers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0080FB1BD87A96004D1B31 /* Lecturers.swift */; settings = {ASSET_TAGS = (); }; };
+		9E0080FC1BD87A96004D1B31 /* Lecturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0080FB1BD87A96004D1B31 /* Lecturer.swift */; };
+		9E89BA851BD9BF820094E5B4 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E89BA841BD9BF820094E5B4 /* Course.swift */; };
+		9E89BA871BD9C3A40094E5B4 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E89BA861BD9C3A40094E5B4 /* Student.swift */; };
+		9E89BA891BD9F0880094E5B4 /* CoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E89BA881BD9F0880094E5B4 /* CoursesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +39,10 @@
 		81BA817A1A49E0E500E65899 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		81BA817E1A49E0F000E65899 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
 		81BA81801A49E10C00E65899 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
-		9E0080FB1BD87A96004D1B31 /* Lecturers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecturers.swift; sourceTree = "<group>"; };
+		9E0080FB1BD87A96004D1B31 /* Lecturer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecturer.swift; sourceTree = "<group>"; };
+		9E89BA841BD9BF820094E5B4 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		9E89BA861BD9C3A40094E5B4 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		9E89BA881BD9F0880094E5B4 /* CoursesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoursesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +95,10 @@
 				81BA814A1A49DA1800E65899 /* AppDelegate.swift */,
 				81BA814C1A49DA1800E65899 /* ViewController.swift */,
 				814C3AC61B69877600E307BB /* Main.storyboard */,
-				9E0080FB1BD87A96004D1B31 /* Lecturers.swift */,
+				9E0080FB1BD87A96004D1B31 /* Lecturer.swift */,
+				9E89BA841BD9BF820094E5B4 /* Course.swift */,
+				9E89BA861BD9C3A40094E5B4 /* Student.swift */,
+				9E89BA881BD9F0880094E5B4 /* CoursesViewController.swift */,
 			);
 			path = ParseStarterProject;
 			sourceTree = "<group>";
@@ -206,9 +215,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E89BA851BD9BF820094E5B4 /* Course.swift in Sources */,
 				81BA814D1A49DA1800E65899 /* ViewController.swift in Sources */,
+				9E89BA871BD9C3A40094E5B4 /* Student.swift in Sources */,
 				81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */,
-				9E0080FC1BD87A96004D1B31 /* Lecturers.swift in Sources */,
+				9E0080FC1BD87A96004D1B31 /* Lecturer.swift in Sources */,
+				9E89BA891BD9F0880094E5B4 /* CoursesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

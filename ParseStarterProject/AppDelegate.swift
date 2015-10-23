@@ -43,7 +43,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Uncomment the line inside ParseStartProject-Bridging-Header and the following line here:
         // PFFacebookUtils.initializeFacebook()
         // ****************************************************************************
-        
         Parse.setApplicationId("LjHBVlcdr7KK9o9lZmlBybUH4X9hMU1G272Cfr2W",
             clientKey: "8uAt8GYKN9r3SMtjSr3aZLimnkVpPgaK6tGJinHu")
         
